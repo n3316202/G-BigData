@@ -14,7 +14,10 @@ class Car:
 
 def main():
     c = Car("32러5234")
+    print(c.__len__())
     print(len(c))
     print(str(c))
+
+    print(dir(c))
 
 main()
