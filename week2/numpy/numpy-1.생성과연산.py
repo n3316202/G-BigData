@@ -1,6 +1,8 @@
 #넘파이 패키지 임포트¶
 #배열을 사용하기 위해서는 우선 다음과 같이 넘파이 패키지를 임포트한다. 넘파이는 np라는 이름으로 임포트하는 것이 관례이다.
 
+#https://laboputer.github.io/machine-learning/2020/04/25/numpy-quickstart/
+
 import numpy as np
 
 #1차원 배열 만들기¶
@@ -10,6 +12,27 @@ import numpy as np
 ar = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
 print(ar)
 print(type(ar))
+
+# numpy.ndarray의 대표적인 속성값들은 다음과 같습니다.
+#
+# ndarray.shape : 배열의 각 축(axis)의 크기
+# ndarray.ndim : 축의 개수(Dimension)
+# ndarray.dtype : 각 요소(Element)의 타입
+# ndarray.itemsize : 각 요소(Element)의 타입의 bytes 크기
+# ndarray.size : 전체 요소(Element)의 개수
+
+print(ar.shape)
+# (3, 5)
+print(ar.ndim)
+# 2
+print(ar.dtype)
+# int64
+print(ar.itemsize)
+# 8
+print(ar.size)
+# 15
+print(type(ar))
+# <class 'numpy.ndarray'>
 
 #1) 파이썬의 리스트를 사용하는 방법
 list1 = [1,2,3,4]
