@@ -38,7 +38,6 @@ print(soup.find('p', class_='example'))
 
 print(soup.select('.example'))
 print(soup.select_one('.example').text)
-
 print(soup.select_one('#test02').text)
 
 

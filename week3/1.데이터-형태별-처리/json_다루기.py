@@ -17,3 +17,6 @@ print(json_data)
 
 #파일로 저장하기
 df.to_json('data.json', orient='records', indent=4)
+
+#json 예제
+#https://ljhokgo.tistory.com/entry/json-%EC%9D%91%EB%8B%B5%EC%9D%84-%EC%A3%BC%EB%8A%94-%ED%85%8C%EC%8A%A4%ED%8A%B8-API-%EC%82%AC%EC%9D%B4%ED%8A%B8#%EC%82%AC%EC%9A%A9%EC%98%88%EC%A0%9C-1
